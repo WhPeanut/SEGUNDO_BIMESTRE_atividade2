@@ -1,25 +1,22 @@
 programa
 {
 	
-inclua biblioteca Matematica --> M
+inclua biblioteca Matematica --> m
 	
 	funcao inicio()
 	{
 
-	    real L1, L2, diagonal
+	    real Lado
+	    real Lado2
+	    real diagonal
 	
-	    // Solicita ao usuário que digite o valor do lado 1
 	    escreva("Digite o valor do lado 1 (em metros): ")
-	    leia(L1)
-	
-	    // Solicita ao usuário que digite o valor do lado 2
+	    leia(Lado)
 	    escreva("Digite o valor do lado 2 (em metros): ")
-	    leia(L2)
+	    leia(Lado2)
 	
-	    // Calcula a diagonal usando o Teorema de Pitágoras
-	    diagonal = M.raiz(L1 * L1 + L2 *L2, 2)
+	    diagonal = m.raiz(Lado * Lado + Lado2 *Lado2, 2)
 	
-	    // Mostra o resultado para o usuário
 	    escreva("A quantidade mínima de fio necessária é: ", diagonal, " metros.")
 
 
