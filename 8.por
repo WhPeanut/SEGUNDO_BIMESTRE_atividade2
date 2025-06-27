@@ -3,7 +3,10 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro tamanhoMB, velocidadeMbps, tempoSegundo, tempoMinutos
+		inteiro tamanhoMB 
+		inteiro velocidadeMbps 
+		inteiro tempoSegundo
+		inteiro tempoMinutos
 
 		escreva("Diga o tamanho do arquivo\n")
 			leia(tamanhoMB)
