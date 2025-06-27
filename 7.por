@@ -3,14 +3,15 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro idade, todas_idade
+		inteiro idade 
+		inteiro somaidade
 
 		
 		
-		escreva("Qual a sua idade?\n")
+		escreva("Digite a sua idade\n")
 			leia(idade)
-		todas_idade = idade * (idade + 1) / 2
+		somaidade = idade * (idade + 1) / 2
 
-		escreva("A soma de todas suas idades é\n", todas_idade)
+		escreva("A soma de todas suas idades é ", somasidade)
 	}
 }
