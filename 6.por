@@ -1,27 +1,17 @@
 programa
 {
 	
-inclua biblioteca Matematica --> M
-	
 	funcao inicio()
 	{
+		inteiro minutos_por_dia, semana, tempo_total, minutos_semana, semanas_ano, minutos_ano
+		semanas_ano = 52
+		semana = 6
+		minutos_por_dia = 5
+		minutos_semana = semana * minutos_por_dia
+		minutos_ano = minutos_semana * semanas_ano
+		tempo_total = minutos_ano / 60
 
-	    real L1, L2, diagonal
-	
-	    // Solicita ao usuário que digite o valor do lado 1
-	    escreva("Digite o valor do lado 1 (em metros): ")
-	    leia(L1)
-	
-	    // Solicita ao usuário que digite o valor do lado 2
-	    escreva("Digite o valor do lado 2 (em metros): ")
-	    leia(L2)
-	
-	    // Calcula a diagonal usando o Teorema de Pitágoras
-	    diagonal = M.raiz(L1 * L1 + L2 *L2, 2)
-	
-	    // Mostra o resultado para o usuário
-	    escreva("A quantidade mínima de fio necessária é: ", diagonal, " metros.")
-
-
+		escreva("Você se dedicou com  ", tempo_total , " de horas lendo o livro em um ano")
+		
 	}
 }
